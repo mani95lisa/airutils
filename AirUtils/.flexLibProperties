@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.plter.air.utils.NativeCommand"/>
+    <classEntry path="com.plter.air.utils.RegCommand"/>
+    <classEntry path="com.plter.air.utils.ShutdownCommand"/>
+    <classEntry path="com.plter.air.utils.AirLauncher"/>
+    <classEntry path="com.plter.air.utils.ScCommand"/>
+    <classEntry path="com.plter.air.utils.ScCommandCreateServiceType"/>
+    <classEntry path="com.plter.air.utils.ScCommandCreateServiceStartOptions"/>
+    <classEntry path="com.plter.air.utils.ScCommandCreateServiceError"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
