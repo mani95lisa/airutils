@@ -97,6 +97,7 @@ package com.plter.air.windows.screen
 				var bmpDe:BMPDecoder=new BMPDecoder;
 				bytes.position=0;
 				dispatchEvent(new ScreenCapturerEvent(ScreenCapturerEvent.SUCCESS,false,false,event.exitCode,bmpDe.decode(bytes)));
+				bytes.length=0;
 			}else{
 				dispatchEvent(new ScreenCapturerEvent(ScreenCapturerEvent.ERROR,false,false,event.exitCode));
 			}
