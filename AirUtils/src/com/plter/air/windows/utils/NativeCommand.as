@@ -128,9 +128,11 @@ package com.plter.air.windows.utils
 		
 		/**
 		 * 执行一条系统命令
-		 * @param args	参数列表
+		 * @param args	执行的系统命令参数列表
+		 * @param sw    是否显示命令窗体
 		 */
-		public function runCmd(args:Vector.<String>):void{
+		public function runCmd(args:Vector.<String>,sw:String="hide"):void{
+			args.splice(0,0,sw);
 			exec(hideRunFile,args);
 		}
 		
