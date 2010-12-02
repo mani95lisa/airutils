@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="com.plter.air.windows.utils.NativeCommand"/>
+    <classEntry path="com.plter.air.windows.utils.RegCommand"/>
+    <classEntry path="com.plter.air.windows.utils.ShutdownCommand"/>
+    <classEntry path="com.plter.air.windows.utils.AirLauncher"/>
+    <classEntry path="com.plter.air.windows.utils.ScCommand"/>
+    <classEntry path="com.plter.air.windows.utils.ScCommandCreateServiceType"/>
+    <classEntry path="com.plter.air.windows.utils.ScCommandCreateServiceStartOptions"/>
+    <classEntry path="com.plter.air.windows.utils.ScCommandCreateServiceError"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
