@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="433dd3c7-30bb-45f2-8a01-4a0afa3bf3e1" projectUUID="433dd3c7-30bb-45f2-8a01-4a0afa3bf3e1" sdkVersion="4.5.0" uuid="a436d41f-bfe5-4d22-9f13-b10c2b18c035" version="9">
+<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="433dd3c7-30bb-45f2-8a01-4a0afa3bf3e1" projectUUID="433dd3c7-30bb-45f2-8a01-4a0afa3bf3e1" sdkVersion="4.5.0" uuid="99c3b43a-443a-4afe-9ffb-b4dc5e9b6e90" version="4">
   <projects/>
   <src/>
   <swc>
-    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="a436d41f-bfe5-4d22-9f13-b10c2b18c035"/>
+    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="99c3b43a-443a-4afe-9ffb-b4dc5e9b6e90"/>
   </swc>
   <misc/>
   <theme/>
-  <mxmlFormattingPrefs groupAttributesByState="true" maxLineWidth="100" mxmlAlignAttributes="true" mxmlAttributeOrder="id,userLabel,includeIn,excludeFrom,visible,x,y,z,left,right,top,bottom,width,height,minWidth,minHeight,maxWidth,maxHeight,label" mxmlKeepAttributeValuesOrganized="true"/>
 </fxpProperties>
