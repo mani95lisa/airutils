@@ -9,6 +9,8 @@
     <classEntry path="com.plter.air.windows.utils.ScCommandCreateServiceType"/>
     <classEntry path="com.plter.air.windows.utils.ScCommandCreateServiceStartOptions"/>
     <classEntry path="com.plter.air.windows.utils.ScCommandCreateServiceError"/>
+    <classEntry path="com.plter.air.windows.utils.ExplorerCommand"/>
+    <classEntry path="com.plter.air.windows.utils.ShowCmdWindow"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
