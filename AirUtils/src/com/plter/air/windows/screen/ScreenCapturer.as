@@ -94,6 +94,10 @@ package com.plter.air.windows.screen
 				var bytes:ByteArray=new ByteArray;
 				stream.readBytes(bytes);
 				stream.close();
+				if(bmpFile.exists){
+					bmpFile.deleteFile();
+				}
+				
 				var bmpDe:BMPDecoder=new BMPDecoder;
 				bytes.position=0;
 				dispatchEvent(new ScreenCapturerEvent(ScreenCapturerEvent.SUCCESS,false,false,event.exitCode,bmpDe.decode(bytes)));
