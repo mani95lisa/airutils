@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:utils="com.plter.air.windows.utils.*">
+
+	<fx:Script>
+		<![CDATA[
+			import com.plter.air.windows.utils.ShowCmdWindow;
+			protected function btn_clickHandler(event:MouseEvent):void
+			{
+				var info:Vector.<String>=new Vector.<String>;
+				info.push("notepad");
+				if(!nc.running){
+					nc.runCmd(info,ShowCmdWindow.SHOW,2000);
+				}
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+		
+		<utils:NativeCommand id="nc"/>
+	</fx:Declarations>
+	
+	<s:Button id="btn" label="延时2秒启动记事本" click="btn_clickHandler(event)"/>
+</s:WindowedApplication>
