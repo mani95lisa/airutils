@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:utils="com.plter.air.windows.utils.*">
+
+	<fx:Script>
+		<![CDATA[
+			import com.plter.air.windows.utils.ShowCmdWindow;
+			protected function btn_clickHandler(event:MouseEvent):void
+			{
+				var args:Vector.<String>=new Vector.<String>;
+				args.push(File.applicationDirectory.resolvePath("RestartAppExample.exe").nativePath);
+				
+				nc.runCmd(args,ShowCmdWindow.HIDE,1000);
+				
+				NativeApplication.nativeApplication.exit();
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+		
+		<utils:NativeCommand id="nc"/>
+	</fx:Declarations>
+	
+	<s:Button id="btn" label="Restart" click="btn_clickHandler(event)"/>
+</s:WindowedApplication>
